@@ -553,3 +553,93 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.gap-\[150px\] {
+  gap: 150px;
+}
+
+.gap-\[170px\] {
+  gap: 170px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.p-\[30\] {
+  padding: 30;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-\[\] {
+    margin-right: ;
+  }
+
+  .lg\:mr-\[50px\] {
+    margin-right: 50px;
+  }
+
+  .lg\:ml-\[50px\] {
+    margin-left: 50px;
+  }
+
+  .lg\:ml-\[30px\] {
+    margin-left: 30px;
+  }
+
+  .lg\:ml-\[0px\] {
+    margin-left: 0px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:p-\[\] {
+    padding: ;
+  }
+
+  .lg\:p-\[50px\] {
+    padding: 50px;
+  }
+}
